@@ -28,10 +28,11 @@ https://api.example.com/cloudflare/ddns.php?email=%USER%&api_key=%PASS%&domain=e
 ### DynDNS for Synology NAS
 `System Controls` -> `External Access` -> `Customize`
 
-![Synology DDNS](https://cdn.f3lix.net/d/sUrSyL.png "QNAP DDNS")
+![Synology DDNS](https://cdn.f3lix.net/d/sUrSyL.png "Synology DDNS")
 
 `System Controls` -> `External Access` -> `Add`
-![Synology DDNS](https://cdn.f3lix.net/d/cTLHPo.png "QNAP DDNS")
+
+![Synology DDNS](https://cdn.f3lix.net/d/cTLHPo.png "Synology DDNS")
 
 ```
 https://api.example.com/cloudflare/ddns.php?email=__USERNAME__&api_key=__PASSWORD__&domain=example.com&record=__HOSTNAME__&ip=__MYIP__&ttl=120
