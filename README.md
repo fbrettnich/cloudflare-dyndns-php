@@ -18,7 +18,7 @@ Required information:
 ### DynDNS for QNAP NAS
 `Network- and Virtual Switch` -> `DDNS` -> `Add` -> `Select DNS server: Customized`
 
-![QNAP DDNS](https://cdn.f3lix.net/d/23Ngyo "QNAP DDNS")
+![QNAP DDNS](https://raw.githubusercontent.com/fbrettnich/cloudflare-dyndns-php/main/.github/images/qnap-ddns.png "QNAP DDNS")
 
 ```
 https://api.example.com/cloudflare/ddns.php?email=%USER%&api_key=%PASS%&domain=example.com&record=%HOST%&ip=%IP%&ttl=120
@@ -28,11 +28,11 @@ https://api.example.com/cloudflare/ddns.php?email=%USER%&api_key=%PASS%&domain=e
 ### DynDNS for Synology NAS
 `System Controls` -> `External Access` -> `Customize`
 
-![Synology DDNS](https://cdn.f3lix.net/d/sUrSyL.png "Synology DDNS")
+![Synology DDNS Provider](https://raw.githubusercontent.com/fbrettnich/cloudflare-dyndns-php/main/.github/images/synology-ddns-provider.png "Synology DDNS Provider")
 
 `System Controls` -> `External Access` -> `Add`
 
-![Synology DDNS](https://cdn.f3lix.net/d/cTLHPo.png "Synology DDNS")
+![Synology DDNS](https://raw.githubusercontent.com/fbrettnich/cloudflare-dyndns-php/main/.github/images/synology-ddns.png "Synology DDNS")
 
 ```
 https://api.example.com/cloudflare/ddns.php?email=__USERNAME__&api_key=__PASSWORD__&domain=example.com&record=__HOSTNAME__&ip=__MYIP__&ttl=120
