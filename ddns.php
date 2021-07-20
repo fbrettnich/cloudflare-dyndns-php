@@ -1,4 +1,8 @@
 <?php
+/**
+ * Copyright (c) 2021 Felix Brettnich
+ * Licensed under MIT (https://github.com/fbrettnich/cloudflare-dyndns-php/blob/main/LICENSE)
+ */
 
 header('Content-Type: application/json');
 
